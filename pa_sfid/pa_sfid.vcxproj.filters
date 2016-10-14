@@ -1,0 +1,139 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="src">
+      <UniqueIdentifier>{b349f561-783a-4ff0-ab52-7a97810c6792}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include">
+      <UniqueIdentifier>{0e85e9d8-a5b6-4fe8-b882-41f258db29ec}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\bias_adder_net.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\blob.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\bn_net.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\common_net.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\conv_net.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\eltwise_net.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\inner_product_net.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\log.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\math_functions.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\max_pooling_net.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\net.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\pad_net.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\spatial_transform_net.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\tform_maker_net.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="pa_sfid.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="tools\aligner.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="tools\face_identification.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="include\aligner.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\bias_adder_net.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\blob.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\bn_net.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\common.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\common_net.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\conv_net.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\eltwise_net.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\face_identification.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\hyper_param.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\inner_product_net.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\log.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\math_functions.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\max_pooling_net.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\net.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\net_factory.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\pad_net.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\recognizer.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\spatial_transform_net.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\tform_maker_net.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\viplnet.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="pa_sfid.h">
+      <Filter>源文件</Filter>
+    </ClInclude>
+    <ClInclude Include="pa_sfid_inlib.h">
+      <Filter>源文件</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
